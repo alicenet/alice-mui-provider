@@ -28,15 +28,9 @@ export const theme = createTheme({
             dark: '#00B272',
             light: '#81C784',
         },
-        headerBlack: {
-            main: '#171717',
-        },
         dark: {
             main: '#212121',
             light: '#0000000A',
-        },
-        darkGray: {
-            main: '#2D2D2D',
         },
         rowBlack: {
             main: '#343333',
@@ -47,14 +41,8 @@ export const theme = createTheme({
         buttonBlack: {
             main: '#494949',
         },
-        lightGray: {
-            main: '#A7A6A6',
-        },
         clearGray: {
             main: '#DEDEDE',
-        },
-        dropGray: {
-            main: '#EEEEEE',
         },
         background: {
             default: '#11151C',
