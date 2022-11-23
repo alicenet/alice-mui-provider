@@ -4,12 +4,29 @@ export const theme = createTheme({
     palette: {
         mode: "dark",
         primary: {
-            main: '#00FFD1',
-            light: '#00FFD114',
+            main: '#95F1E3',
+            dark: '#62BEB1',
+            light: '#C9FFFF',
         },
         secondary: {
-            main: '#ff79b0',
-            dark: '#3E3036',
+            main: '#FFABD1',
+            dark: '#B27792',
+            light: '#FFBBDA',
+        },
+        error: {
+            main: '#FF3636',
+            dark: '#D32F2F',
+            light: '#E57373',
+        },
+        info: {
+            main: '#29B6F6',
+            dark: '#0288D1',
+            light: '#4FC3F7',
+        },
+        success: {
+            main: '#00FFA3',
+            dark: '#00B272',
+            light: '#81C784',
         },
         headerBlack: {
             main: '#171717',
@@ -40,11 +57,12 @@ export const theme = createTheme({
             main: '#EEEEEE',
         },
         background: {
-            default: '#212121',
+            default: '#11151C',
+            paper: 'linear-gradient(180deg, rgba(165, 198, 255, 0.05) 0%, rgba(165, 198, 255, 0.05) 100%), #11151C',
         }
     },
     typography: {
-        fontFamily: 'Ubuntu Mono',
+        fontFamily: 'JetBrains Mono',
         button: {
             fontSize: '1.15rem',
             textTransform: 'none',
