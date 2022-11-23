@@ -58,7 +58,7 @@ export const theme = createTheme({
         },
         background: {
             default: '#11151C',
-            paper: 'linear-gradient(180deg, rgba(165, 198, 255, 0.05) 0%, rgba(165, 198, 255, 0.05) 100%), #11151C',
+            paper: '#11151C',
         }
     },
     typography: {
