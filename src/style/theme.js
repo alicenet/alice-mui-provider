@@ -81,6 +81,7 @@ export const theme = createTheme({
         MuiCssBaseline: {
             styleOverrides: {
                 body: {
+                    fontSize: '14px',
                     "&::-webkit-scrollbar, & *::-webkit-scrollbar": {
                         "-webkit-appearance": "none",
                         width: 10,
