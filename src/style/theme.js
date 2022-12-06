@@ -50,6 +50,7 @@ export const theme = createTheme({
         }
     },
     typography: {
+        fontSize: "14px",
         fontFamily: 'JetBrains Mono',
         button: {
             fontSize: '1.15rem',
