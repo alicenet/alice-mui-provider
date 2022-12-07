@@ -50,11 +50,11 @@ export const theme = createTheme({
         }
     },
     typography: {
+        fontSize: 13,
         fontFamily: 'JetBrains Mono',
         button: {
             fontSize: '1.15rem',
             textTransform: 'none',
-            fontWeight: 600,
         },
     },
     spacing: 8,
@@ -80,7 +80,7 @@ export const theme = createTheme({
         MuiCssBaseline: {
             styleOverrides: {
                 html: {
-                    fontSize: "14px",
+                    fontSize: 13,
                     "&::-webkit-scrollbar, & *::-webkit-scrollbar": {
                         "-webkit-appearance": "none",
                         width: 10,
