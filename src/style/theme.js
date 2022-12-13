@@ -62,7 +62,7 @@ export const theme = createTheme({
         }
     },
     typography: {
-        fontFamily: 'JetBrains Mono',
+        fontFamily: 'Ubuntu Mono',
         button: {
             fontSize: '1.15rem',
             textTransform: 'none',
