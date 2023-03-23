@@ -44,7 +44,16 @@ export const theme = createTheme({
         background: {
             default: '#11151C',
             paper: '#11151C',
-        }
+        },
+        custom: {
+            startGradient: '#FFABD4',
+            endGradient: '#CE6D99',
+            elevation1: "rgba(165, 198, 255, 0.05)",
+            elevation3: "rgba(165, 198, 255, 0.08)",
+            elevation4: "rgba(165, 198, 255, 0.09)",
+            elevation12: "rgba(165, 198, 255, 0.14)",
+            elevation24: "rgba(165, 198, 255, 0.16)",
+        },
     },
     typography: {
         fontFamily: 'JetBrains Mono',
